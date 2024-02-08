@@ -7,7 +7,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 function Introduction() {
   return (
     <main>
-      <div className='container-fluid m-2 p-5 border-dark'>
+      <div className='container m-2 p-3'>
       <h1 className='fw-bold'>Giuseppina Sherry Sayan</h1>
         <p>
           <i class="bi-envelope p-3"></i><a href="#" class="link-primary">gishjode@gmail.com</a><br></br>
@@ -31,7 +31,6 @@ export function Skills() {
       <p>
        JavaScript, HTML, CSS, React.js, Firebase, Express.js, JSON, Application Programming Interfaces (API), Information Technology
       </p>
-      
    </>
   )
 }
@@ -41,11 +40,16 @@ export function Education() {
     <>
       <div className='p-3 mb-3 bg-info bg-opacity-10 border border-info rounded'>
     <h3>Education:</h3></div>
-      <ul>
-        <li>Universiti Tun Hussein Onn</li>
-        
-        <li>Sigma School</li>
-      </ul>
+      <ol>
+        <li>Universiti Tun Hussein Onn (2004 - 2007)</li>
+        <ul>
+        <li>Bachelor of Information Technology (Hons)</li>
+        </ul>
+        <li>Sigma School (2023)</li>
+        <ul>
+        <li>Software Development Program</li>
+        </ul>
+      </ol>
       
    </>
   )

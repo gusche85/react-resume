@@ -1,6 +1,25 @@
-/*main {
-  text-align: center;
-  vertical-align: center;
 
+
+main {
+  align-items: center;
+  justify-content: center;
   
-}*/
+
+width: 80%;
+  max-width: 65em;
+  backdrop-filter: blur(1rem);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 2em;
+  border-radius: 0.8em;
+  background: hsl(0 0% 0% / 0.1);
+  border: 2px solid transparent;
+  -webkit-box-shadow: 0 0px 100px rgba(106, 13, 173, 0.9);
+}
+
+body {
+  background: url('background.jpg');
+  background-size: cover;
+}
