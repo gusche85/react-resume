@@ -1,17 +1,32 @@
-## Running React on Repl.it
+#React Resume
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+This is a React component that represents a resume. It includes sections for Introduction, Skills, Education, Experience, and Summary.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+#Introduction
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+The Introduction component includes the main information about the individual, such as their name, links to their personal portfolio, LinkedIn, and GitHub, as well as a summary of their skills, education, and experience.
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+#Skills
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+The Skills component lists the individual's technical skills, including JavaScript, HTML, CSS, React.js, Firebase, Express.js, Wordpress, JSON, and Application Programming Interfaces (API).
 
-### Typescript
+#Education
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+The Education component presents the individual's educational background, including details about their degrees and programs attended.
+
+#Experience
+
+The Experience component outlines the individual's work experience, including their roles, responsibilities, and accomplishments in various positions.
+
+#Summary
+
+The Summary component provides a brief overview of the individual's background, skills, and passion for problem-solving, as well as their transition from a document controller in the oil and gas industry to a tech enthusiast and programmer.
+
+#Picture
+
+The Picture component displays the individual's profile picture.
+
+This React resume component provides a structured representation of the individual's professional and technical background.
+
+
+
