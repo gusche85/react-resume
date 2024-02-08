@@ -6,7 +6,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function Introduction() {
   return (
-    <main>
+    <main className='border border-black rounded'>
       <div className='container m-2 p-3'>
       <h1 className='fw-bold'>Giuseppina Sherry Sayan</h1>
         <p>
@@ -26,8 +26,11 @@ function Introduction() {
 export function Skills() {
   return (
     <>
-      <div className='p-3 mb-3 bg-info bg-opacity-10 border border-info rounded'>
-    <h3>Skills:</h3></div>
+        <nav class="navbar bg-body-secondary mb-3 mt-3"> 
+          <div class="container-fluid"> 
+            <span class="navbar-brand mb-0 h1">Skills</span>
+          </div>
+        </nav>
       <p>
        JavaScript, HTML, CSS, React.js, Firebase, Express.js, JSON, Application Programming Interfaces (API), Information Technology
       </p>
@@ -38,8 +41,11 @@ export function Skills() {
 export function Education() {
   return (
     <>
-      <div className='p-3 mb-3 bg-info bg-opacity-10 border border-info rounded'>
-    <h3>Education:</h3></div>
+      <nav class="navbar bg-body-secondary mb-3 mt-3"> 
+        <div class="container-fluid"> 
+          <span class="navbar-brand mb-0 h1">Education</span>
+        </div>
+      </nav>
       <ol>
         <li>Universiti Tun Hussein Onn (2004 - 2007)</li>
         <ul>
@@ -59,7 +65,11 @@ export function Education() {
 export function Experience() {
   return (
     <>
-    <div className='p-3 mb-3 bg-info bg-opacity-10 border border-info rounded'><h3>Experience</h3></div>
+      <nav class="navbar bg-body-secondary mb-3 mt-3"> 
+        <div class="container-fluid"> 
+          <span class="navbar-brand mb-0 h1">Experience</span>
+        </div>
+      </nav>
       <ul>
         <li>Universiti Tun Hussein Onn</li>
         <li>Sigma School</li>
@@ -68,6 +78,8 @@ export function Experience() {
    </>
   )
 }
+
+
 
 
 export default Introduction;

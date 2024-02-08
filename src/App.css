@@ -12,10 +12,8 @@ width: 80%;
   left: 50%;
   top: 50%;
   padding: 2em;
-  border-radius: 0.8em;
+
   background: white;
-  
-  border: 1px solid black;
   -webkit-box-shadow: 0 0px 100px rgba(0, 10, 123, 0.5);
 }
 
