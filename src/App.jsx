@@ -12,8 +12,10 @@ function Introduction() {
       <div className='container-fluid m-7 p-3'>
       <h1 className='fw-bold'>Giuseppina Sherry Sayan</h1>
         <p>
-          <i className="bi-envelope p-3"></i><a href="#" className="link-primary">gishjode@gmail.com</a><br></br>
-          <i className="bi-github p-3"></i><a href="#" className="link-primary">https://github.com/gusche85</a>
+           <i className="bi-file-code"></i><a href="https://portfolio.juspna.com/" className="link-primary p-2">My personal portfolio</a><br />
+          <i className="bi-linkedin"></i><a href="www.linkedin.com/in/giuseppina-sayan-1a32056b" className="link-primary p-2">LinkedIn</a><br />
+          <i className="bi-github"></i><a href="https://github.com/gusche85" className="link-primary p-2">Github</a>
+         
         </p>
         <hr></hr>
         <Summary />
