@@ -76,19 +76,19 @@ export function Experience() {
         </div>
       </nav>
       <ul>
-        <li>Document Controller @ Sumatec Engineering & Construction Sdn. Bhd.(2010)
+        <li><span className='fw-bold'>Document Controller </span> @ Sumatec Engineering & Construction Sdn. Bhd.(2010)
           <ul>
             <li> Managed the ABF Plant Rejuvenation Project Main Construction Package, ensuring smooth communication and coordination among stakeholders.</li>
             <li>Ensured compliance with project requirements through systematic file management practices for efficient document retrieval.</li> <br />
           </ul>
         </li>
 
-        <li>Document Control Coordinator @ Air Energy Consulting (M) Sdn. Bhd.(2009) </li>
+        <li><span className='fw-bold'>Document Control Coordinator</span> @ Air Energy Consulting (M) Sdn. Bhd.(2009) </li>
         <ul>
            <li>Overseeing the organization and management of documents and drawings for the Construction of Murphy Gas Plant Phase 1 Bintulu Onshore Receiving Facility project.</li> <br />
         </ul>
  
-        <li>General Clerk @ K-Frontiers Sdn. Bhd.(2008 - 2009)</li>
+        <li><span className='fw-bold'>General Clerk</span> @ K-Frontiers Sdn. Bhd.(2008 - 2009)</li>
         <ul>
           <li>Assisting the Technical Assistant with general administrative duties, while performing document control tasks to facilitate project progression.</li>
         </ul>
@@ -111,7 +111,7 @@ export function Summary() {
 export function Picture() {
   return (
     <div className='text-center m-3'>
-    <img height={100} src='profile.png'/>
+    <img className='border-black rounded' height={110} src='profile.png'/>
     </div>
   );
 }
