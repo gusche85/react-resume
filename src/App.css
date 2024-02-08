@@ -1,26 +1,23 @@
 
+body {  
+  background: url('background.jpg');  
+  background-size: cover;  
+  background-attachment: fixed;  
+  background-position: center;  
+  font-size: 12px;  
+ 
+}
 
 main {
-  align-items: center;
-  justify-content: center;
-  
-
-width: 80%;
-  max-width: 65em;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
+  margin: 10px auto;
+  position: relative;
   padding: 2em;
-
   background: white;
   -webkit-box-shadow: 0 0px 100px rgba(0, 10, 123, 0.5);
+  width: 80%;
+  max-width: 65em;
 }
 
-body {
-  background: url('background.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  
-}
+
+
+
