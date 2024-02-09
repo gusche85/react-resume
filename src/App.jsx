@@ -102,7 +102,7 @@ export function Experience() {
 export function Summary() {
   return (
     <>
-     <p className='mt-4 fw-bold'>Summary:</p>
+      <p className='mt-4 fw-bold'>Summary:</p>
     <p className='mb-4'>I am a tech enthusiast fueled by a passion for problem-solving. My coding journey is a testament to my self-learning prowess, showcasing my commitment to continuous improvement. Drawing from a background as a document controller in the oil and gas industry, I bring a unique blend of organizational skills and attention to detail. Leveraging this experience, I've successfully translated my expertise into programming, contributing to the development of impactful applications. Explore with me as I merge industry insights with cutting-edge technology in my online portfolio. I am ready to bring a dynamic blend of tech prowess and industry experience to your team</p>
     </>
    )
@@ -111,10 +111,14 @@ export function Summary() {
 export function Picture() {
   return (
     <div className='text-center m-3'>
-    <img className='border-black rounded' height={110} src='profile.png'/>
+    <img className='border-black rounded' height={110} src='public/profile.png'/>
     </div>
   );
 }
+
+
+
+export default Introduction;
 
 
 
