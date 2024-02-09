@@ -111,7 +111,7 @@ export function Summary() {
 export function Picture() {
   return (
     <div className='text-center m-3'>
-    <img className='border-black rounded' height={110} src='public/profile.png'/>
+    <img className='border-black rounded' height={110} src='/profile.png'/>
     </div>
   );
 }
